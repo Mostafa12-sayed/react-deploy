@@ -1,0 +1,651 @@
+
+
+
+body .container-afte-header {
+margin-top: 50px;
+}
+.about-thumb-area ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.about-thumb-area ul li {
+  display: inline-flex;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+
+.about-thumb-area ul li:first-child , .about-thumb-area ul li:nth-child(4) {
+  width: 45%;
+}
+.about-thumb-area ul li:second-child {
+  width: 45%;
+}
+body .row .card {
+  display: inline;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 50px; 
+}
+
+.about-thumb-area {
+  position: relative;
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+
+body .row .about-thumb-area  img.image-one {
+  border-radius: 0 60px 60px 60px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-left: 20px;
+
+
+}
+
+body .row .about-thumb-area  img.image-two {
+
+  border-radius: 60px 0 60px 60px;
+  margin-left: auto;
+  margin-top: auto;
+
+ }
+ body .row .about-thumb-area  img.image-three {
+
+  border-radius:  60px  60px  60px 0;
+  margin-left: 100px;
+  margin-bottom: 30px;
+ 
+
+ }
+
+ .about-thumb-area .exp-bx {
+  background-color: #e6e7ff;
+  border-radius: 60px 60px 0 60px;
+  color: #565acf;
+  display: block;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 75px;
+  padding: 60px 0 30px;
+  position: relative;
+  text-align: center;
+  width: 220px;
+  z-index: 2;
+}
+
+.about-thumb-area .exp-bx::after {
+  border: 2px solid #565acf;
+  border-radius: 60px 60px 0 60px;
+  content: "";
+  height: 100%;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: -1;
+}
+
+ .about-thumb-area .exp-bx span {
+  color: #1f2278;
+  display: block;
+  font-size: 18px;
+}
+
+.about-thumb-area::after {
+  background-color: #f17732;
+  border-radius: 15px;
+  content: "";
+  height: 47px;
+  left: 45%;
+  position: absolute;
+  top: 51%;
+  transform: rotate(45deg);
+  width: 48px;
+}
+.about-content 
+{
+  margin-left: 20px;
+  margin-bottom: 45px;
+}
+.about-content h6{
+  background-image: url("../../Assets/icon-orange.png");
+  width: 120px;
+  text-align: center;
+  color: var(--tertiary-color);
+  font-weight: bold;
+  font-size: 24px;
+
+}
+.about-content h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  color: var(--secondary-color);
+}
+.about-content p{
+  font-weight: 500;
+  padding-top: 5px;
+
+  
+}
+ /***************** work process ***********/
+section.working-process-area {
+  text-align: center;
+  justify-content: center;
+  background-image: url("../../Assets/bcg-workes.png") !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding: 50px;
+  height: 100% !important;
+}
+
+.working-process
+{
+  background-image: url("../../Assets/icon-orange.png");
+  max-width: 180px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  margin: 5px auto;
+}
+
+.How-We-Works{
+  color: var(--secondary-color);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.header-title{
+  text-align: center;
+}
+ .work-process-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.work-process-area .container{
+  position: absolute; 
+  top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border-radius: 10px;
+ max-width: 990px !important;
+
+}
+
+
+.container-sm {
+  max-width: 990px !important;
+}
+
+.make-appointmnet{
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 60px 0 rgba(31,34,120,.1);
+  overflow: hidden;
+  margin-top: 80px;
+  padding: 40px 30px;
+  position: relative;
+  transition: all .5s;
+  z-index: 1;
+}
+.make-appointmnet h2{
+  text-align: left;
+  -webkit-text-stroke: 2px #f17732;
+  color: transparent;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 80px;
+  margin-bottom: 20px;
+  text-shadow: 0 10px 0 #ffe3d3;
+  transition: all .5s;
+}
+
+.make-appointmnet h3{
+  text-align: left;
+  color: var(--tertiary-color);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  transition: all .5s;
+}
+
+
+.make-appointmnet p{
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  transition: all .5s;
+  line-height: 24px;
+}
+.btn-area
+{
+  text-align: left;
+}
+.btn-area span{
+  display: inline;
+  background-color: white;
+  height: 50px;
+  padding: 10px 2px;
+  border-radius: 10px;
+  margin-right: -20px;
+  margin-left: 10px;
+}
+.make-appointmnet .make-appointmnet-btn svg{
+  margin-right: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+
+}
+
+.make-appointmnet .make-appointmnet-btn{
+  background-color: #e1e2f6;
+  border: 2px solid #e1e2f6;
+  color: #565acf;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.show-three-col .active{
+  margin-top:10px !important ;
+} 
+ 
+
+.make-appointmnet.active::after, .make-appointmnet:hover::after {
+
+  animation-duration: .5s;
+  bottom: 0;
+  height: 100%;
+  top: auto;
+  transform-origin: bottom;
+
+}
+.make-appointmnet.active h2,
+ .make-appointmnet:hover h2 {
+  -webkit-text-stroke: 2px #fff;
+  text-shadow: 0 10px 0 #f38f5e;
+}
+
+.make-appointmnet.active h3,
+.make-appointmnet.active p,
+.make-appointmnet:hover p,
+ .make-appointmnet:hover h3 {
+ color: #fff;
+}
+
+.make-appointmnet::after {
+  background-color: #f17732;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: top;
+  -moz-transform-origin: top;
+  -ms-transform-origin: top;
+  -webkit-transform-origin: top;
+  -o-transform-origin: top;
+  transition: all .5s;
+  width: 100%;
+  z-index: -1;
+}
+
+.make-appointmnet.active .make-appointmnet-btn,
+ .make-appointmnet:hover .make-appointmnet-btn {
+  background-color: #fff;
+  color: #f17732;
+}
+
+.make-appointmnet.active .btn-area span,
+ .make-appointmnet:hover .btn-area span {
+  background-color: #f17732;
+  color: #fff;
+}
+
+.working-process-area img
+{
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.working-process-area .image-animated-orange
+{
+  left: 5%;
+  bottom:15%;
+  animation: up-to-down 2s infinite alternate;
+
+}
+
+.working-process-area .image-animated-plus
+{
+  right: 5%;
+  bottom:35%;
+  animation: rotate 4s linear infinite;
+
+
+}
+
+.working-process-area .image-animated-white
+{
+  right: 20%;
+  bottom:5%;
+  animation: up-to-down 2s infinite alternate;
+}
+
+
+
+@keyframes up-to-down{
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}
+
+
+@keyframes rotate {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+/******************booking-area******************/
+
+.booking-area{
+  background-color: rgba(170, 190, 207, 0.2);
+  margin: 30px auto !important;
+  background-image: url("../../Assets/bcg-workes.png") !important;
+  border-radius: 30px;
+  justify-content: center;
+  width: 95%; 
+  max-width: 1500px;
+  height: 100% !important;
+  padding: 30px ;
+
+}
+
+.booking-area::after
+{
+  background-color: rgb(118, 146, 171);
+}
+.booking-form-area
+{
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+.booking-image
+{
+  width: 100%;
+}
+.booking-form{
+  width: 100% !important;
+}
+
+.appointment-thumb 
+{
+  height: 100% !important;
+  padding: 30px;
+    margin-left: 30px;
+    position: relative;
+    /* width: 730px; */
+}
+.appointment-thumb  .img-responsive {
+ 
+  height: 100%;
+  margin-right: 80px !important;
+  width: auto;
+  vertical-align: middle;
+  position: relative;
+  z-index: -1;
+  left: -30px;
+
+}
+.appointment-thumb .images-group img {
+  position: absolute;
+
+}
+
+.appointment-thumb .images-group .img1{
+  right: -60px;
+  top: 157px;
+  height: 605px;
+  animation: lefttoRight 2s infinite alternate;
+}
+.appointment-thumb .images-group .img3{
+  right: -10px;
+  top: 80px;
+
+  animation: lefttoRight 2s infinite alternate;
+}
+.appointment-thumb .images-group .img2{
+  left: 100px;
+  top: 365px;
+  animation: uptodown 2s infinite alternate;
+}
+
+.appointment-thumb .images-group .img4{
+  left: 440px;
+  top: 490px;
+  animation: uptodown 2s infinite alternate;
+}
+
+.appointment-thumb .images-group .img5{
+  left: 24px;
+  top: 215px;
+  animation: uptodown 2s infinite alternate;
+}
+@keyframes lefttoRight {
+  from {
+      transform: translateX(0px);
+  }
+  to {
+      transform: translateX(10px);
+  }
+}
+@keyframes uptodown {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(10px);
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+  .make-appointmnet{
+     margin-top: 20px;
+   }
+   .show-three-col .active
+   {
+     margin-top: 20px !important;
+   }
+   .working-process-area .image-animated-plus
+   {
+     right: 3%;
+     bottom:50%;
+     animation: rotate 4s linear infinite;
+ 
+   }
+ 
+ 
+   .working-process-area .image-animated-white
+   {
+     right: 55%;
+     bottom:3%;
+     animation: up-to-down 2s infinite alternate;
+   }
+ 
+   .working-process-area .image-animated-orange
+   {
+     right: 50%;
+     bottom:50%;
+     animation: up-to-down 2s infinite alternate;
+   }
+ 
+
+
+   /***************** booking-area ***********/
+
+   .appointment-thumb  .img-responsive {
+ 
+      width: 100%;
+  
+  }
+  .appointment-thumb .images-group img {
+    position: absolute;
+  
+  }
+  
+  .appointment-thumb .images-group .img1{
+    right: 80px;
+    top: 88px;
+    height: 325px;
+  }
+  .appointment-thumb .images-group .img3{
+    right: 45px;
+    top: 25px;
+  
+  }
+  .appointment-thumb .images-group .img2{
+    left: 50px;
+    top: 200px;
+    width: 75px
+  }
+  
+  .appointment-thumb .images-group .img4{
+    left: 220px;
+    top: 290px;
+    width: 75px
+  }
+  
+  .appointment-thumb .images-group .img5{
+    left: -20px;
+    top: 80px;
+   
+  }
+ 
+ }
+ .feature-container{
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid #e1e2f6;
+  padding: 10px;
+ }
+ .feature-container h4{
+
+
+     color: #1f2278;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    text-align: center;   
+    display: inline;
+    text-align: center;                                                              
+ }
+
+
+
+ .icon-md ,.icon-content{
+  display: inline;
+ }
+
+ .feature-container .icon-md svg{
+  width: 40px;
+  height: 40px;
+  
+ }
+
+ .feature1
+ {
+  border-color: #f17732;
+ }
+
+ .feature2
+ {
+  border-color: #0e84e5;
+ }
+ .feature3
+ {
+  border-color: #d5eb10;
+ }
+ .feature4
+ {
+  border-color: #ef0a21;
+ }
+
+
+
+ .feature-bx1:hover .icon-md svg{
+  animation: vaibration 0.8s alternate;  
+}
+
+
+
+ @keyframes vaibration {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  
+}
+
+
+ .btn-read-more button
+{
+  background-color: var(--secondary-color);
+  margin-left: 20px;
+  padding: 0  30px ;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  height: 50px;
+}
+.btn-read-more button:hover
+{
+  background-color:#7275be ;
+}

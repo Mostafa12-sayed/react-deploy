@@ -1,0 +1,62 @@
+.error-404
+{
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.error-404 .inner-container{
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+.error-404 .error-title
+{
+  font-size: 180px;
+  line-height: 180px;
+  margin-bottom: 15px;
+  font-weight: 800;
+  color: #1f2278;
+}
+.error-404 .error-message
+{
+  font-size: 28px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #1f2278;
+}
+
+.error-404 .error-title p{
+  margin-bottom: 30px !important;
+  line-height: 80px !important;
+}
+.error-404 .error-title span
+{
+  background-image: url("../../Assets/animated/error.gif");
+  background-size: 100%;
+  display: inline-block;
+  height: 140px;
+
+  width: 140px;
+}
+
+.error-404 .btn-container 
+{
+  margin-top: 30px;
+  text-align: center;
+
+}
+.error-404 .btn-container button{
+  margin-right: 10px;
+  min-width: 120px;
+  height: 50px;
+  background-color: var(--secondary-color);
+
+}
+
+
+.error-404 .btn-container button:hover{
+  background-color: #2a2d70;
+  transition: all 0.3s ease-in-out;
+
+}
